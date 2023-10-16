@@ -13,7 +13,12 @@ function Zeiterfassung() {
                 <p>Zeiterfassung</p>
                     <form>
                         <label>
-                        <input type="date"/>
+                        
+                        <input type="date" name='date' />
+                        <br/>
+                        <input type="time" name='time'/>
+                        <br/>
+                        <input type="submit" value="Submit" />
                         
                         </label>
 
