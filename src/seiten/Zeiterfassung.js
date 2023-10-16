@@ -3,6 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Navigation from '../container/Navigation/Navigation';
 import Footline from '../container/Footline/Footline';
+import './Zeiterfassung.css'
 
 function Zeiterfassung() {
     return (
@@ -11,19 +12,21 @@ function Zeiterfassung() {
         <Container maxWidth="sm"sx={{ bgcolor: '#cfe8fc', height: 600 }}>
             <Navigation />
                 <p>Zeiterfassung</p>
+                <br/>
                     <form>
                         <label>
                         
                         <input type="date" name='date' />
                         <br/>
+                        
                         <input type="time" name='time'/>
-                        <br/>
-                        <input type="submit" value="Submit" />
+                        <br/><br/>
+                        <input type="submit" value="Stempeln" />
                         
                         </label>
 
                     </form>
-
+            
             </Container>
 
             <Container maxWidth="sm"sx={{ bgcolor: '#cfe8fc', height: 100 }}>
