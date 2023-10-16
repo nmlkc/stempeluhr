@@ -5,6 +5,7 @@ import Navigation from '../container/Navigation/Navigation';
 import Footline from '../container/Footline/Footline';
 import './Zeiterfassung.css'
 
+
 function Zeiterfassung() {
     return (
         <React.Fragment>
@@ -21,8 +22,13 @@ function Zeiterfassung() {
                         
                         <input type="time" name='time'/>
                         <br/><br/>
-                        <input type="submit" value="Stempeln" />
-                        
+                        <input type="submit" value="Stempeln" onclick="buttonClicked()"/>
+                        <script>
+                            function buttonClicked() {
+                                alert('Button wurde geklickt!!')
+                            }
+                        </script>
+
                         </label>
 
                     </form>
