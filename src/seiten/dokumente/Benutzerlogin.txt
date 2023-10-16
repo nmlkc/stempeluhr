@@ -1,0 +1,5 @@
+const name = [];
+name[Jan]= "123";
+name[Misch]= "456";
+name[Nihad]= "789";
+name[Larissa]= "159";

@@ -1,0 +1,10 @@
+Login.js
+
+Die onClick Funktion löst ein Error aus. Daher wurde diese entfernt bis zur weiterverarbeitung.
+Zeilen 77-80: Configuration Button
+                <Button
+                    id='loginButton'
+                    onClick={() => {
+                        checkLogin();
+                      }}
+                      variant="contained">

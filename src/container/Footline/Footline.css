@@ -1,0 +1,15 @@
+footer {
+    background-color: #cfe8fc;
+    color: black;
+    padding: 1rem;
+}
+
+footer h4 {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: whitesmoke;
+    margin-right: 1rem;
+    text-decoration: none;
+}
