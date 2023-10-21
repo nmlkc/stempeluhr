@@ -71,7 +71,7 @@ function Zeiterfassung() {
                         <tr>
                             <th>Datum</th>
                             <th>Zeit</th>
-                            <th>Arbeitszeit (Stunden)</th>
+                            <th>geleistet</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -84,7 +84,7 @@ function Zeiterfassung() {
                         ))}
                     </tbody>
                 </table>
-                <button onClick={handleDownload}>Download als zeit.xlsx</button>
+                <button onClick={handleDownload}>Download</button>
             </Container>
 
             <Container maxWidth="sm" sx={{ bgcolor: '#cfe8fc', height: 100 }}>
