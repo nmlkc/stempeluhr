@@ -60,10 +60,12 @@ function Zeiterfassung() {
                 <form onSubmit={handleSubmit}>
                     <label>
                         <input type="date" name='date' />
-                        <br />
+                        <br/>
                         <input type="time" name='time' />
                         <br /><br />
                         <input type="submit" value="Stempeln" />
+                        <br/>
+                        <br/>
                     </label>
                 </form>
                 <table>
@@ -84,6 +86,8 @@ function Zeiterfassung() {
                         ))}
                     </tbody>
                 </table>
+                <br/>
+                <br/>
                 <button onClick={handleDownload}>Download</button>
             </Container>
 
