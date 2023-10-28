@@ -63,7 +63,7 @@ function Zeiterfassung() {
                         <br/>
                         <input type="time" name='time' />
                         <br /><br />
-                        <input type="submit" value="Stempeln" />
+                        <input type="submit" value="Stempeln1" />
                         <br/>
                         <br/>
                     </label>
